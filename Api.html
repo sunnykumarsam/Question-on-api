@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API</title>
+    <script type="text/javascript">
+        // fetch('./usersample.json')
+        // .then(function(response){
+        //     response.json();
+
+
+        // })
+        // .then.response((user)=>{
+        //     document.getElementById("userData").innerHTML=result.map((user)=>
+        //     `<tr>
+        //         <td>${user.id}</td>
+        //         <td>${user.name}</td>
+        //         <td>${user.email}</td>
+        //         <td>${user.username}</td>
+        //         <td>${user.website}</td>
+        //         <td>${user.phone}</td>
+        //         <td>${user.address.zipcode}</td>
+        //         <td>${user.address.street}</td>
+        //         <td>${user.address.city}</td>
+        //         <td>${user.address.suite}</td>
+        //         <td>${user.company.name}</td>
+             
+        //         </tr>`
+        //     ).join("");
+        // })
+
+    //   async  function callApi(){
+    //         let result= await fetch("https://jsonplaceholder.typicode.com/users");
+    //         // let result= await fetch("usersample.json");
+    //         result= await result.json();
+    //         console.log(result);
+    //         document.getElementById("userData").innerHTML=result.map((user)=>
+    //         `<tr>
+    //             <td>${user.id}</td>
+    //             <td>${user.name}</td>
+    //             <td>${user.email}</td>
+    //             <td>${user.username}</td>
+    //             <td>${user.website}</td>
+    //             <td>${user.phone}</td>
+    //             <td>${user.address.zipcode}</td>
+    //             <td>${user.address.street}</td>
+    //             <td>${user.address.city}</td>
+    //             <td>${user.address.suite}</td>
+    //             <td>${user.company.name}</td>
+             
+    //             </tr>`
+    //         ).join("");
+    //     }
+    //     callApi();
+    </script>
+</head>
+<body>
+<h1>API call in javascript</h1>
+<table border="1">
+<thead>
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Username</th>
+        <th>Email</th>
+        <th>Website</th>
+        <th>Phone</th>
+        <th>company</th>
+          <th>Address(zipcode)</th>
+     <th>Address(street)</th>
+        <th>Address(city)</th>
+        <th>geo(lat)</th>
+        <th>geo(lng)</th>
+        <!-- <th>Address(suite)</th> -->
+        <!-- <th>company(name)</th> -->
+        <!-- <th>company</th> -->
+    </tr>
+</thead>
+<tbody id="userData">
+    <tr>
+        <td>121</td>
+    </tr>
+
+</tbody>
+</table>
+<!-- <button type="submit" onclick="refresh()">Refresh</button> -->
+<script src="index.js"></script>
+</body>
+</html>
